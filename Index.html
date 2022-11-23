@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quote</title>
+        <link rel="styleSheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="overlay">
+            <div class="header">
+                <a href="" class="logo">Random Quote</a>
+                <div class="leftNav">
+                    <a class="about" id="about" onclick="About()">About</a>
+                </div>
+            </div>
+
+            <div class="container" id="Container">
+                <div class="quoteBG">
+                    <h2 readonly id="quote">Loading..</h2>
+                    <p id="author">-author</p>
+                </div>
+                <div class="iconBG">
+                    <img onclick="CopyText()" class ="icon" src="assets/icon/copy.svg"/>
+                    <img onclick="speak()" class="icon" src="assets/icon/Speaker_Icon.svg" >
+                    <img onclick="tweet()" class="icon" src="assets/icon/twitter.svg"/>
+                    <img  class="icon" src="assets/icon/instagram.svg"/>
+                    <img  class="icon" src="assets/icon/facebook.svg"/>
+                </div>
+                <button class="getQuote" onclick="reload()">New Quote</button>
+            </div>
+
+            <div id="About">
+
+                <h3>A Minor Project </h3>
+                <p>Submitted to</p>
+                <p>RAJIV GANDHI PROUDYOGIKI VISHWAVIDYALAYA,<br>
+                    (State Technological University of M.P.)
+                </p>
+
+                <img class="rgpvLogo" src="assets/icon/rgpv_logo.png" alt="">
+                
+                <div class="sub">
+                    <div>
+                        <ul> Submitted By:
+                            <li>
+                                Ravi Kourav- 0186CS201079
+                            </li>
+                            <li>
+                                Rohit Raj- 0186CS201086
+                            </li>
+                            <li>
+                                Pintu Kumar- 0186CS201066
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul> Under the Guidance of Prof
+                        <li>
+                            Dr Kapil Chaturvedi Sir
+                        </li>
+                    </ul>
+
+                </div>
+
+                <p>SAGAR INSTITUTE OF RESEARCH TECHNOLOGY & SCIENCE, <br>BHOPAL (M.P.) Department Of Computer Science and Engineering</p>
+
+                <img class="rgpvLogo" src="assets/icon/sirts_logo.png" alt=""/>
+            </div>
+        </div>
+    </body>
+</html>
